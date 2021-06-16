@@ -2,5 +2,4 @@
 Full Stack University - Pluralsight course by Samer Buna
 
 
-URL for PLayground examples:
-1. https://jscomplete.com/playground/rgs1.1
+The playground folder has some examples on the usage of cool react features
