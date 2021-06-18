@@ -39,3 +39,6 @@ Steps:
 8. Under package.json to run the webpack command and a webserver. Added under scripts. To run development server and to bundle with webpack
 9. Add src/components/App.js, src/index.js, src/server/server.js with example content
 
+Using Samers script
+npx reactful star-match
+
