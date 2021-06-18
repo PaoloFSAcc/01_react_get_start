@@ -1,0 +1,32 @@
+{
+  "name": "fulljs",
+  "version": "1.0.0",
+  "description": "React project created form scratch",
+  "main": "index.js",
+  "scripts": {
+    "dev-server": "nodemon --exec babel-node src/server/server.js --ignore dist/",
+    "dev-bundler": "webpack -w --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paolo Aguilar",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.39.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.28.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
