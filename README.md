@@ -42,3 +42,4 @@ Steps:
 Using Samers script
 npx reactful star-match
 
+Migrate functionality from playground app to own reactful project
